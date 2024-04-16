@@ -22,7 +22,7 @@
           # - vios_name: "vios1"    # jak to widać na HMC, a nie hostname viosa
           #   volume_name: "{{ my_hdisk }}"
           - vios_name: "vios2"
-            volume_name: "{{ my_hdisk }}"
+            volume_name: "{{ hdisk13 }}"
         virt_network_config:
           - network_name: "VLAN74-ETHERNET0"
         state: present    
